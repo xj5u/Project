@@ -15,5 +15,10 @@ namespace git_pro
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("成功上传了！");
+        }
     }
 }
